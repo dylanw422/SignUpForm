@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); </style>
+</head>
+<body>
+    <div class="body">
+        <div class="box">
+            <img src="https://img.freepik.com/free-vector/analysis-concept-illustration_114360-1119.jpg?w=740&t=st=1671056899~exp=1671057499~hmac=ec699731dbf3470091b361a4ce71d4e2368cb923604510e741132ed685008cd6">
+            <div class="form">
+                <h1>Sign Up</h1>
+                <div class="fields">
+                    <form method="post">
+                        <input type="text" id="first_name" placeholder="First Name" required pattern="\S+.*">
+                        <input type="text" id="email" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"> 
+                        <input type="password" id="password" placeholder="Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+                        <input type="password" id="confirm" placeholder="Confirm Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+                    </form>
+                </div>
+                <div class="terms">
+                    <h3>By signing up, you are agreeing to our <span>Terms & Conditions</span> and <span>Privacy Policy</span></h3>
+                </div>
+                <div class="button">
+                    <button class="continue" type="submit">Continue</button>
+                </div>
+                <div class="account">
+                    <h3>Already have an account? <span>Login</span></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
